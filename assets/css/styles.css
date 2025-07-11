@@ -151,7 +151,12 @@ button {
   align-items: center;
   column-gap: 0.5rem;
   font-weight: var(--font-bold);
-  font-size: var(--h2-font-size);
+  font-size: 1.075rem;
+}
+
+.nav__logo span {
+  color: var(--first-color);
+  margin-left: -0.4rem;
 }
 
 .nav__logo-img {
@@ -160,7 +165,7 @@ button {
 
 .nav__toggle {
   display: inline-flex;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
@@ -636,6 +641,11 @@ button {
   color: #fff;
   font-size: var(--h1-font-size);
   margin-bottom: 2rem;
+}
+
+.footer__title span {
+  color: var(--first-color);
+  padding: 0.15rem;
 }
 
 .footer__description {
